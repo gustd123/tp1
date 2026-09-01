@@ -5,6 +5,8 @@
 (du moins prioritaire au plus prioritaire) */
 @layer settings, base, layout, components;
 
+
+
 /* 2. Importation des fichiers physiques dans les couches virtuelles */
 
 /* Dossier : css/settings/ */
@@ -25,4 +27,7 @@
 /* Temporaire - Pour tester une variable définie dans les settings */
 h1 {
   color: var(--couleur-principale);
+}
+p {
+  
 }
