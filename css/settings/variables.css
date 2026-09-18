@@ -2,4 +2,49 @@
 
 :root {
   --couleur-principale: rgb(62, 3, 118);
+
+    /* ---------- couleurs de fond ---------- */
+--couleur-primaire: #F5F5F5;
+--couleur-secondaire: #fff;
+--couleur-tertiaire: #000;
+
+/* ---------- boutons ---------- */
+
+/*noir*/
+--btn-noir-initial : #111111;
+--btn-noir-survol : #707070;
+--btn-noir-enfonce : #cdcdcd;
+--btn-noir-focus: #707070;
+--btn-noir-desactive : #2e2e2e;
+
+--btn-noir-typo-initial: #fff;
+--btn-noir-typo-survol: #fff;
+--btn-noir-typo-enfonce: #111111;
+--btn-noir-typo-focus: #fff;
+--btn-noir-typo-desctive: #555555;
+
+--btn-noir-bordure-focus: #00a2ff;
+
+/*blanc*/
+--btn-blanc-initial: #fff;
+--btn-blanc-survol: #fff;
+--btn-blanc-enfonce: #cdcdcd;
+--btn-blanc-focus: #fff;
+--btn-blanc-desactive: #fff;
+
+--btn-blanc-typo-initial: #555555;
+--btn-blanc-typo-survol: #555555;
+--btn-blanc-typo-enfonce: #111111;
+--btn-blanc-typo-focus: #555555;
+--btn-blanc-typo-desactive: #dddddd;
+
+--btn-blanc-bordure-initial: #dddddd;
+--btn-blanc-bordure-survol: #000;
+--btn-blanc-bordure-focus: #00a2ff;
+
+/* ---------- typo ---------- */
+--typo-nav: Barlow-medium-12px;
+--typo-titre: Barlow-Condensed-black-53px;
+--typo-lien-menu: barlow-condensed-bold-22px;
+--typo-barre-recherche: berlow-regular-12px;
 }

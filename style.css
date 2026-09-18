@@ -5,8 +5,6 @@
 (du moins prioritaire au plus prioritaire) */
 @layer settings, base, layout, components;
 
-
-
 /* 2. Importation des fichiers physiques dans les couches virtuelles */
 
 /* Dossier : css/settings/ */
