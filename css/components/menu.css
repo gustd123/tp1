@@ -3,9 +3,9 @@
 @layer components {
   /* 1. ARCHITECTURE DESKTOP */
   .nav-menu {
-    --nav-bg: #ffffff;
-    --nav-text: #020263;
-    --nav-accent: #0066cc;
+    --nav-bg: #000;
+    --nav-text: #FFF;
+    --nav-accent: #fff;
     --nav-focus-ring: #ffbf00;
 
     display: flex;
@@ -23,8 +23,49 @@
       padding: 0;
     }
 
+    .recherche__champ-texte {
+      display: block;
+        background-color: #1A1A1A;
+        color: #606875;
+        height: 1.8rem;
+        border-radius: 2rem;
+        border: none;
+        width: 9.5rem;
+      }
+
+      .header_recherche-champ {
+        display: block;
+        display: flex;
+        background-color: #1A1A1A;
+        color: #606875;
+        padding-left: 1rem;
+        height: 2rem;
+        border-radius: 2rem;
+        border: none;
+        width: 192px;
+      }
+
+      .recherche__btn-soumettre {
+        display: block;
+        border-radius: 2rem;
+        background-color: #1A1A1A;
+        border: none;
+        margin-right:1rem;
+      }
+
+      .icon-panier {
+        width: 120%;
+      }
+
+      .header_section-droite {
+        display: flex;
+        gap: 1rem;
+      }
+
     .nav-menu__link {
       color: var(--nav-text);
+      font-family: "Barlow", sans-serif;
+      text-transform: uppercase;
       text-decoration: none;
       font-weight: 500;
       padding: 0.5rem 0.25rem;
@@ -166,7 +207,7 @@
         padding: 1rem 2rem;
         border-bottom: none;
         border-left: 4px solid transparent;
-
+        
         &:hover,
         &:focus-visible {
           background-color: rgba(0, 102, 204, 0.05);
@@ -175,7 +216,7 @@
       }
 
       /* OUVERTURE DU MENU : Changement d'état piloté par l'attribut ARIA */
-      .nav-menu__toggle[aria-expanded="true"] + .nav-menu__list {
+      .nav-menu__toggle[aria-expanded="true"] ~ .nav-menu__list {
         opacity: 1;
         visibility: visible;
         transform: translateY(0);

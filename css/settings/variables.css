@@ -1,9 +1,10 @@
 /* VARIABLES */
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-  --couleur-principale: rgb(62, 3, 118);
 
-    /* ---------- couleurs de fond ---------- */
+/* ---------- couleurs de fond ---------- */
 --couleur-primaire: #F5F5F5;
 --couleur-secondaire: #fff;
 --couleur-tertiaire: #000;
@@ -43,8 +44,70 @@
 --btn-blanc-bordure-focus: #00a2ff;
 
 /* ---------- typo ---------- */
+/*header*/
 --typo-nav: Barlow-medium-12px;
---typo-titre: Barlow-Condensed-black-53px;
+--typo-titre: "Barlow Condensed", sans-serif;
 --typo-lien-menu: barlow-condensed-bold-22px;
---typo-barre-recherche: berlow-regular-12px;
+--typo-barre-recherche: "Barlow", sans-serif;
+--typo-fil-ariane: "Barlow", sans-serif;
+--typo-btn-categorie: Barlow-medium-12px;
+--typo-btn-masquer-filtres: barlow-Medium-12px;
+--typo-label-filtre:Barlow-regular-12px;
+--typo-liste-deroulante: Barlow-medium-12px;
+
+/*main*/
+--typo-texte: "Barlow", sans-serif;
+--typo-legende: Barlow-medium-13px;
+--typo-label: Barlow-regular-14px;
+--typo-nouveaute: Barlow-semibold-10px;
+--typo-sexe: Barlow-medium-10px;
+--typo-sous-titre: Barlow-condensed-Bold-16px;
+--typo-couleurs: Barlow-regular-12px;
+--typo-prix: Barlow-regular-14px;
+--typo-btn-ajout-panier: Barlow-medium-12px;
+--typo-lien-page-suivante: Barlow-medium-12px;
+
+/*footer*/
+--typo-lien-menu: "Barlow Condensed", sans-serif;
+--typo-small: Barlow-regular-12px;
+}
+
+.lien-menu {
+  font-family: var(--typo-lien-menu);
+  font-weight: 700;
+  font-size: 1.375rem;
+  letter-spacing: 9%;
+  text-transform: uppercase;
+  color: var(--couleur-secondaire);
+  text-decoration: none;
+}
+
+.recherche__champ-texte {
+   font-family: var(--typo-barre-recherche);
+}
+
+.fil-ariane {
+  font-family: var(--typo-fil-ariane);
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  color: #ADB1BC;
+}
+
+.fil-ariane_lien {
+  text-decoration: none;
+  color: #ADB1BC;
+  font-size: 0.875rem;
+}
+
+.titre-principal {
+  font-family: var(--typo-titre);
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 3.3125rem;
+}
+
+.header__nb-produits {
+  font-family: var(--typo-texte);
+  font-size: 0.875rem;
 }

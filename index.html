@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/components/menu.css" />
     <link rel="stylesheet" href="css/settings/variables.css" />
+    <link rel="stylesheet" href="style.css" />
     <script src="js/menu.js" defer></script>
     <title>TP1</title>
 </head>
 <body>
     <header>
-      <a class="lien-menu" href="#">Foulée</a>
         <nav class="nav-menu" aria-label="Navigation principale">
           <button class="nav-menu__toggle" aria-expanded="false" aria-controls="nav-menu-list" aria-label="Ouvrir le menu de navigation">
             <span class="nav-menu__hamburger-icon" aria-hidden="true"></span>
           <span class="nav-menu__libelle">Menu</span>
         </button>
+        <a class="lien-menu" href="#">Foulée</a>
         <!-- Liste des liens de navigation -->
         <ul id="nav-menu-list" class="nav-menu__list">
           <li class="nav-menu__item">
@@ -37,15 +41,20 @@
             <a href="#contact" class="nav-menu__link">Foulée +</a>
           </li>
         </ul>
-        <div class="nav__barre-recherche">
-                <form action="">
-                    <input type="text" placeholder="Rechercher" name="">
-                    <button class="recherche__btn-soumettre" type="submit"><img src='' class='icon-recherche' alt="loupe de recherche"></button>
+        <section class="header_section-droite">
+                <form class="header_recherche-champ" action="">
+                    <input class='recherche__champ-texte'type="text" placeholder="Rechercher" name="">
+                    <button class="recherche__btn-soumettre" type="submit"><img src='images/Icons/icon-loupe.svg' class='icon-recherche' alt="loupe de recherche"></button>
+                  </input>
                 </form>
-            </div>
-            <a class="nav__lien-panier" href="#"><img class="icon-panier" src="" alt="panier"></a>
+                <a class="nav__lien-panier" href="#"><img class="icon-panier" src="images/Icons/icon-panier.svg" alt="panier"></a>
+              </section>
       </nav>
-        <ol>Accueil > Chaussures</ol>
+        <ol class="fil-ariane">
+          <li class=fil-ariane_item><a href='#'class='fil-ariane_lien'>Accueil</a></li>
+          <li class="fil-ariane_item">></li>
+          <li class=fil-ariane_item><a href='#'class='fil-ariane_lien'>Chaussures</a></li>
+        </ol>
         <h1 class="titre-principal">Chaussures</h1>
         <p class="header__nb-produits">12 produits</p>
         <ul class="liste-btn__categorie-produits">
@@ -107,7 +116,7 @@
         </section>
         <section class="grille-chassure">
           <div class="grille-chaussure__boite-chaussure">
-            <img src="#" alt="#">
+            <img src="images/Chaussures/men/AirForceFlynit_01.jpg" alt="#">
             <p class="boite-chaussure_genre">Hommes</p>
             <h2 class="sous-titre">Air Force Flyknit</h2>
             <p class="boite-chaussure_couleurs">3 couleurs</p>
@@ -115,7 +124,7 @@
             <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img src="#" alt="#">
+            <img src="images/Chaussures/women/AirForceMidLeather_01.jpg" alt="#">
             <p class="boite-chaussure_genre">Femmes</p>
             <h2 class="sous-titre">Air Force Mid Leather</h2>
             <p class="boite-chaussure_couleurs">4 couleurs</p>
@@ -123,7 +132,7 @@
             <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img src="#" alt="#">
+            <img src="images/Chaussures/men/AirJordanRetroDecon_01.jpg" alt="#">
             <p class="boite-chaussure_genre">Hommes</p>
             <h2 class="sous-titre">Air Jordan Retro Decon</h2>
             <p class="boite-chaussure_couleurs">5 couleurs</p>
@@ -131,7 +140,7 @@
             <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img src="#" alt="#">
+            <img src="images/Chaussures/men/AirVortex01.jpg" alt="#">
             <p class="boite-chaussure_genre">Hommes</p>
             <h2 class="sous-titre">Air Vortex</h2>
             <p class="boite-chaussure_couleurs">3 couleurs</p>
@@ -139,7 +148,7 @@
             <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img src="#" alt="#">
+            <img src="images/Chaussures/men/CourtBoroughMid_01.jpg" alt="#">
             <p class="boite-chaussure_genre">Hommes</p>
             <h2 class="sous-titre">Court Borough Mid</h2>
             <p class="boite-chaussure_couleurs">4 couleurs</p>
@@ -147,7 +156,7 @@
             <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img src="#" alt="#">
+            <img src="images/Chaussures/women/ClassicCortezNylonB_01.jpg" alt="#">
             <p class="boite-chaussure_genre">Femmes</p>
             <h2 class="sous-titre">Classic Cortez Nylon B</h2>
             <p class="boite-chaussure_couleurs">2 couleurs</p>
@@ -155,7 +164,7 @@
             <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img src="#" alt="#">
+            <img src="images/Chaussures/men/AirMaxUltraMoire_01.jpg" alt="#">
             <p class="boite-chaussure_genre">Hommes</p>
             <h2 class="sous-titre">Air Max Ultra Moire</h2>
             <p class="boite-chaussure_couleurs">4 couleurs</p>
@@ -163,7 +172,7 @@
             <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img src="#" alt="#">
+            <img src="images/Chaussures/women/AirMaxZero_01.jpg" alt="#">
             <p class="boite-chaussure_genre">Femmes</p>
             <h2 class="sous-titre">Air Max Zero</h2>
             <p class="boite-chaussure_couleurs">6 couleurs</p>
@@ -171,7 +180,7 @@
             <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img src="#" alt="#">
+            <img src="images/Chaussures/women/BlazerLowLX_01.jpg" alt="#">
             <p class="boite-chaussure_genre">Femmes</p>
             <h2 class="sous-titre">Blazer Low Lx</h2>
             <p class="boite-chaussure_couleurs">3 couleurs</p>
@@ -179,7 +188,7 @@
             <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img src="#" alt="#">
+            <img src="images/Chaussures/men/CortezUltraMoire_01.jpg" alt="#">
             <p class="boite-chaussure_genre">Hommes</p>
             <h2 class="sous-titre">Cortez Ultra Moire</h2>
             <p class="boite-chaussure_couleurs">5 couleurs</p>
@@ -187,7 +196,7 @@
             <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img src="#" alt="#">
+            <img src="images/Chaussures/women/FlexSupremeTR5b_01.jpg" alt="#">
             <p class="boite-chaussure_genre">Femmes</p>
             <h2 class="sous-titre">Flex Supreme Tr 5b</h2>
             <p class="boite-chaussure_couleurs">3 couleurs</p>
@@ -195,7 +204,7 @@
             <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img src="#" alt="#">
+            <img src="images/Chaussures/women/LunarChargeEssential_01.jpg" alt="#">
             <p class="boite-chaussure_genre">Femmes</p>
             <h2 class="sous-titre">Lunar Charge Essential</h2>
             <p class="boite-chaussure_couleurs">4 couleurs</p>
@@ -236,9 +245,9 @@
         </ul>
         <small class="footer_texte-description">FOULÉE est une boutique spécialisée dans la vente de chaussures de sport et de lifestyle. Nous offrons une sélection soigneusement choisie pour hommes, femmes et enfants</small>
         <ul class="footer_liste-medias">
-          <li class="footer_liste-medias-item"><a class='footer_liste-medias-lien' href="#"><img src="" alt="twitter"></a></li>
-          <li class="footer_liste-medias-item"><a class='footer_liste-medias-lien' href="#"><img src="" alt="facebook"></a></li>
-          <li class="footer_liste-medias-item"><a class='footer_liste-medias-lien' href="#"><img src="" alt="dribble"></a></li>
+          <li class="footer_liste-medias-item"><a class='footer_liste-medias-lien' href="#"><img src="images/Icons/icon x.svg" alt="twitter"></a></li>
+          <li class="footer_liste-medias-item"><a class='footer_liste-medias-lien' href="#"><img src="images/Icons/icon Facebook.svg" alt="facebook"></a></li>
+          <li class="footer_liste-medias-item"><a class='footer_liste-medias-lien' href="#"><img src="images/Icons/icon Dribble.svg" alt="dribble"></a></li>
         </ul>
     </footer>
 </body>
