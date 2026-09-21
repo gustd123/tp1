@@ -64,59 +64,62 @@
             <li class='liste-btn__item'><button class='btn-blanc'>enfants</button></li>
         </ul>
         <section class="section-filtres">
-            <button class='btn-camouflage'><img class='icon-btn-filtre' src="" alt="icon bouton filtre">Masquer les filtres</button>
-            <label for="section-filtres__liste-selection">Trier par</label>
-            <select name="liste-filtre" id="section-filtres__liste-selection">
+            <button class='btn-camouflage'><img class='icon-btn-filtre' src="images/Icons/icon-filtre.svg" alt="icon bouton filtre">Masquer les filtres</button>
+            <section class="section-filtre_liste-deroulante">
+            <label for="filtre_liste-deroulante">Trier par</label>
+            <select name="filtre_liste-deroulante" id="filtre_liste-deroulante">
                 <option value="">--Choisir--</option>
-                <option value="dog">Nouveautés</option>
+                <option value="">Nouveautés</option>
             </select>
+            </section>
         </section>
     </header>
     <main>
-        <section class="selction-categories">
-          <form id="">
-            <fieldset>
+      <div class="ajustement-main">
+        <section class="selction-preferences">
+          <form>
+            <fieldset class="champ_selection-preferences">
               <legend>Sport</legend>
-              <label><input type="checkbox" name="hobbies" value="Reading">Course</label>
-              <label><input type="checkbox" name="hobbies" value="Traveling">Basketball</label>
-              <label><input type="checkbox" name="hobbies" value="Cooking">Football</label>
-              <label><input type="checkbox" name="hobbies" value="Sports">Training</label>
-              <label><input type="checkbox" name="hobbies" value="Music">Lifestyle</label>
+              <label class="libelle_champ-selection"><input type="checkbox" name="course" value="course">Course</label>
+              <label class="libelle_champ-selection"><input type="checkbox" name="basketball" value="basketball">Basketball</label>
+              <label class="libelle_champ-selection"><input type="checkbox" name="football" value="football">Football</label>
+              <label class="libelle_champ-selection"><input type="checkbox" name="training" value="training">Training</label>
+              <label class="libelle_champ-selection"><input type="checkbox" name="lifestyle" value="lifestyle">Lifestyle</label>
             </fieldset>
-            <fieldset>
+            <fieldset class="champ_selection-preferences">
               <legend>Prix</legend>
-              <label><input type="checkbox" id="" name="hobbies" value="Reading">Moins de 80 $</label>
-              <label><input type="checkbox" name="hobbies" value="Traveling">80 $ - 120 $</label>
-              <label><input type="checkbox" name="hobbies" value="Cooking">120 $ - 180 $</label>
-              <label><input type="checkbox" name="hobbies" value="Sports">Plus de 180 $</label>
+              <label class="libelle_champ-selection"><input type="checkbox" name="moins80" value="moins80">Moins de 80 $</label>
+              <label class="libelle_champ-selection"><input type="checkbox" name="80-120" value="80-120">80 $ - 120 $</label>
+              <label class="libelle_champ-selection"><input type="checkbox" name="120-180" value="120-180">120 $ - 180 $</label>
+              <label class="libelle_champ-selection"><input type="checkbox" name="plus180" value="plus180">Plus de 180 $</label>
             </fieldset>
-            <fieldset>
+            <fieldset class="champ_selection-preferences">
               <legend>Couleur</legend>
-              <label><input type="checkbox" name="hobbies" value="Reading">Blanc</label>
-              <label><input type="checkbox" name="hobbies" value="Traveling">Noir</label>
-              <label><input type="checkbox" name="hobbies" value="Cooking">Rouge</label>
-              <label><input type="checkbox" name="hobbies" value="Sports">Bleu</label>
-              <label><input type="checkbox" name="hobbies" value="Music">Jaune</label>
-              <label><input type="checkbox" name="hobbies" value="Music">Gris</label>
+              <label class="libelle_champ-selection"><input type="checkbox" name="blanc" value="blanc">Blanc</label>
+              <label class="libelle_champ-selection"><input type="checkbox" name="noir" value="noir">Noir</label>
+              <label class="libelle_champ-selection"><input type="checkbox" name="rouge" value="rouge">Rouge</label>
+              <label class="libelle_champ-selection"><input type="checkbox" name="bleu" value="bleu">Bleu</label>
+              <label class="libelle_champ-selection"><input type="checkbox" name="jaune" value="jaune">Jaune</label>
+              <label class="libelle_champ-selection"><input type="checkbox" name="gris" value="gris">Gris</label>
             </fieldset>
-            <fieldset>
+            <fieldset class="champ_selection-preferences">
               <legend>Pointure</legend>
-              <label><input type="checkbox" name="hobbies" value="Reading">36</label>
-              <label><input type="checkbox" name="hobbies" value="Traveling">37</label>
-              <label><input type="checkbox" name="hobbies" value="Cooking">38</label>
-              <label><input type="checkbox" name="hobbies" value="Sports">39</label>
-              <label><input type="checkbox" name="hobbies" value="Music">40</label>
-              <label><input type="checkbox" name="hobbies" value="Music">41</label>
-              <label><input type="checkbox" name="hobbies" value="Music">42</label>
-              <label><input type="checkbox" name="hobbies" value="Music">43</label>
-              <label><input type="checkbox" name="hobbies" value="Music">44</label>
-              <label><input type="checkbox" name="hobbies" value="Music">45</label>
+              <label class="libelle_champ-selection"><input type="checkbox" name="36" value="36">36</label>
+              <label class="libelle_champ-selection"><input type="checkbox" name="37" value="37">37</label>
+              <label class="libelle_champ-selection"><input type="checkbox" name="38" value="38">38</label>
+              <label class="libelle_champ-selection"><input type="checkbox" name="39" value="39">39</label>
+              <label class="libelle_champ-selection"><input type="checkbox" name="40" value="40">40</label>
+              <label class="libelle_champ-selection"><input type="checkbox" name="41" value="41">41</label>
+              <label class="libelle_champ-selection"><input type="checkbox" name="42" value="42">42</label>
+              <label class="libelle_champ-selection"><input type="checkbox" name="43" value="43">43</label>
+              <label class="libelle_champ-selection"><input type="checkbox" name="44" value="44">44</label>
+              <label class="libelle_champ-selection"><input type="checkbox" name="45" value="45">45</label>
             </fieldset>
           </form>
         </section>
         <section class="grille-chassure">
           <div class="grille-chaussure__boite-chaussure">
-            <img src="images/Chaussures/men/AirForceFlynit_01.jpg" alt="#">
+            <div class="coupure-image"><img class="image-boite-chaussure" src="images/Chaussures/men/AirForceFlynit_01.jpg" alt="#"></div>
             <p class="boite-chaussure_genre">Hommes</p>
             <h2 class="sous-titre">Air Force Flyknit</h2>
             <p class="boite-chaussure_couleurs">3 couleurs</p>
@@ -124,7 +127,7 @@
             <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img src="images/Chaussures/women/AirForceMidLeather_01.jpg" alt="#">
+            <div class="coupure-image"><img class="image-boite-chaussure" src="images/Chaussures/women/AirForceMidLeather_01.jpg" alt="#"></div>
             <p class="boite-chaussure_genre">Femmes</p>
             <h2 class="sous-titre">Air Force Mid Leather</h2>
             <p class="boite-chaussure_couleurs">4 couleurs</p>
@@ -132,7 +135,7 @@
             <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img src="images/Chaussures/men/AirJordanRetroDecon_01.jpg" alt="#">
+            <img class="image-boite-chaussure" src="images/Chaussures/men/AirJordanRetroDecon_01.jpg" alt="#">
             <p class="boite-chaussure_genre">Hommes</p>
             <h2 class="sous-titre">Air Jordan Retro Decon</h2>
             <p class="boite-chaussure_couleurs">5 couleurs</p>
@@ -140,7 +143,7 @@
             <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img src="images/Chaussures/men/AirVortex01.jpg" alt="#">
+            <img class="image-boite-chaussure" src="images/Chaussures/men/AirVortex01.jpg" alt="#">
             <p class="boite-chaussure_genre">Hommes</p>
             <h2 class="sous-titre">Air Vortex</h2>
             <p class="boite-chaussure_couleurs">3 couleurs</p>
@@ -148,7 +151,7 @@
             <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img src="images/Chaussures/men/CourtBoroughMid_01.jpg" alt="#">
+            <img class="image-boite-chaussure" src="images/Chaussures/men/CourtBoroughMid_01.jpg" alt="#">
             <p class="boite-chaussure_genre">Hommes</p>
             <h2 class="sous-titre">Court Borough Mid</h2>
             <p class="boite-chaussure_couleurs">4 couleurs</p>
@@ -156,7 +159,7 @@
             <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img src="images/Chaussures/women/ClassicCortezNylonB_01.jpg" alt="#">
+            <img class="image-boite-chaussure" src="images/Chaussures/women/ClassicCortezNylonB_01.jpg" alt="#">
             <p class="boite-chaussure_genre">Femmes</p>
             <h2 class="sous-titre">Classic Cortez Nylon B</h2>
             <p class="boite-chaussure_couleurs">2 couleurs</p>
@@ -164,7 +167,7 @@
             <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img src="images/Chaussures/men/AirMaxUltraMoire_01.jpg" alt="#">
+            <img class="image-boite-chaussure" src="images/Chaussures/men/AirMaxUltraMoire_01.jpg" alt="#">
             <p class="boite-chaussure_genre">Hommes</p>
             <h2 class="sous-titre">Air Max Ultra Moire</h2>
             <p class="boite-chaussure_couleurs">4 couleurs</p>
@@ -172,7 +175,7 @@
             <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img src="images/Chaussures/women/AirMaxZero_01.jpg" alt="#">
+            <img class="image-boite-chaussure" src="images/Chaussures/women/AirMaxZero_01.jpg" alt="#">
             <p class="boite-chaussure_genre">Femmes</p>
             <h2 class="sous-titre">Air Max Zero</h2>
             <p class="boite-chaussure_couleurs">6 couleurs</p>
@@ -180,7 +183,7 @@
             <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img src="images/Chaussures/women/BlazerLowLX_01.jpg" alt="#">
+            <img class="image-boite-chaussure" src="images/Chaussures/women/BlazerLowLX_01.jpg" alt="#">
             <p class="boite-chaussure_genre">Femmes</p>
             <h2 class="sous-titre">Blazer Low Lx</h2>
             <p class="boite-chaussure_couleurs">3 couleurs</p>
@@ -188,7 +191,7 @@
             <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img src="images/Chaussures/men/CortezUltraMoire_01.jpg" alt="#">
+            <img class="image-boite-chaussure" src="images/Chaussures/men/CortezUltraMoire_01.jpg" alt="#">
             <p class="boite-chaussure_genre">Hommes</p>
             <h2 class="sous-titre">Cortez Ultra Moire</h2>
             <p class="boite-chaussure_couleurs">5 couleurs</p>
@@ -196,7 +199,7 @@
             <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img src="images/Chaussures/women/FlexSupremeTR5b_01.jpg" alt="#">
+            <img class="image-boite-chaussure" src="images/Chaussures/women/FlexSupremeTR5b_01.jpg" alt="#">
             <p class="boite-chaussure_genre">Femmes</p>
             <h2 class="sous-titre">Flex Supreme Tr 5b</h2>
             <p class="boite-chaussure_couleurs">3 couleurs</p>
@@ -204,7 +207,7 @@
             <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img src="images/Chaussures/women/LunarChargeEssential_01.jpg" alt="#">
+            <img class="image-boite-chaussure" src="images/Chaussures/women/LunarChargeEssential_01.jpg" alt="#">
             <p class="boite-chaussure_genre">Femmes</p>
             <h2 class="sous-titre">Lunar Charge Essential</h2>
             <p class="boite-chaussure_couleurs">4 couleurs</p>
@@ -212,43 +215,42 @@
             <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
           </div>
         </section>
+        </div>
           <ol class="liste_page-suivante">
-          <li class='liste_page-suivante_item'><a href="#" class="liste_page-suivante_lien"><</a></li>
-          <li class='liste_page-suivante_item'><a href="#" class="liste_page-suivante_item">1</a></li>
-          <li class='liste_page-suivante_item'><a href="#" class="liste_page-suivante_item">2</a></li>
-          <li class='liste_page-suivante_item'><a href="#" class="liste_page-suivante_item">3</a></li>
-          <li class='liste_page-suivante_item'><a href="#" class="liste_page-suivante_item">></a></li>
+          <li class='liste_page-suivante_item'><a href="#" class="btn-blanc"><</a></li>
+          <li class='liste_page-suivante_item'><a href="#" class="btn-noir">1</a></li>
+          <li class='liste_page-suivante_item'><a href="#" class="btn-blanc">2</a></li>
+          <li class='liste_page-suivante_item'><a href="#" class="btn-blanc">3</a></li>
+          <li class='liste_page-suivante_item'><a href="#" class="btn-blanc">></a></li>
           </ol>
     </main>
     <footer>
+      <section class="section_footer-haut">
       <a class="lien-menu" href="#">Foulée</a>
-      <small class="footer-copyrights">&copy; 2017 FOULÉE. Tous droits réservés 2017.</small>
       <ul id="footer-nav-menu-list" class="footer-nav-menu__list-footer">
           <li class="footer-nav-menu__item">
-            <a href="#home" class="footer-nav-menu__link">Hommes</a>
+            <a href="#home" class="footer-nav-menu__link">Accueil</a>
           </li>
           <li class="footer-nav-menu__item">
-            <a href="#services" class="footer-nav-menu__link">Femmes</a>
+            <a href="#services" class="footer-nav-menu__link">À propos</a>
           </li>
           <li class="footer-nav-menu__item">
-            <a href="#about" class="footer-nav-menu__link">Enfants</a>
+            <a href="#about" class="footer-nav-menu__link">Support</a>
           </li>
           <li class="footer-nav-menu__item">
-            <a href="#contact" class="footer-nav-menu__link">Sports</a>
-          </li>
-          <li class="footer-nav-menu__item">
-            <a href="#contact" class="footer-nav-menu__link">Personnaliser</a>
-          </li>
-          <li class="footer-nav-menu__item">
-            <a href="#contact" class="footer-nav-menu__link">Foulée +</a>
+            <a href="#contact" class="footer-nav-menu__link">Contact</a>
           </li>
         </ul>
-        <small class="footer_texte-description">FOULÉE est une boutique spécialisée dans la vente de chaussures de sport et de lifestyle. Nous offrons une sélection soigneusement choisie pour hommes, femmes et enfants</small>
         <ul class="footer_liste-medias">
-          <li class="footer_liste-medias-item"><a class='footer_liste-medias-lien' href="#"><img src="images/Icons/icon x.svg" alt="twitter"></a></li>
-          <li class="footer_liste-medias-item"><a class='footer_liste-medias-lien' href="#"><img src="images/Icons/icon Facebook.svg" alt="facebook"></a></li>
-          <li class="footer_liste-medias-item"><a class='footer_liste-medias-lien' href="#"><img src="images/Icons/icon Dribble.svg" alt="dribble"></a></li>
+          <li class="footer_liste-medias-item"><a class='footer_liste-medias-lien' href="#"><img src="images/Icons/icon-x.svg" alt="twitter"></a></li>
+          <li class="footer_liste-medias-item"><a class='footer_liste-medias-lien' href="#"><img src="images/Icons/icon-Facebook.svg" alt="facebook"></a></li>
+          <li class="footer_liste-medias-item"><a class='footer_liste-medias-lien' href="#"><img src="images/Icons/icon-Dribble.svg" alt="dribble"></a></li>
         </ul>
-    </footer>
+        </section>
+        <section class="section_footer-small">
+        <small class="footer-copyrights">&copy; 2017 FOULÉE. Tous droits réservés 2017.</small>
+        <small class="footer_texte-description">FOULÉE est une boutique spécialisée dans la vente de chaussures de sport et de lifestyle. Nous offrons une sélection soigneusement choisie pour hommes, femmes et enfants</small>
+        </section>
+      </footer>
 </body>
 </html>

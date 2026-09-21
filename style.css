@@ -22,4 +22,169 @@
 /* @import url("css/components/accordeon.css") layer(components); */
 /* @import url("css/components/modale.css") layer(components); */
 
-/* Temporaire - Pour tester une variable définie dans les settings */
+.liste-btn__categorie-produits {
+    list-style: none;
+    display: flex;
+    gap: 0.4rem;
+    padding-left: 4rem;
+}
+
+header {
+    background-color: var(--couleur-primaire);
+}
+
+.section-filtres {
+    background-color: var(--couleur-secondaire);
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-camouflage {
+    background-color: var(--couleur-secondaire);
+    border: none;
+    font-family: var(--typo-btn-masquer-filtres);
+    text-transform: uppercase;
+    letter-spacing: 6%;
+    font-weight: 500;
+}
+
+.icon-btn-filtre {
+    padding-right: 1rem;
+}
+
+.btn-camouflage {
+    padding-left: 4rem;
+}
+
+.section-filtre_liste-deroulante {
+    font-family: var(--typo-label-filtre);
+    color: #ACB2BE;
+}
+
+select {
+    padding: 0.5rem;
+    margin-left: 0.2rem;
+    border: #E6E7EB 2px solid;
+}
+
+.grille-chassure {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: right;
+    background-color: var(--couleur-primaire);
+    width: 100%;
+
+}
+
+.grille-chaussure__boite-chaussure img {
+    width: 263px;
+    height: 185px;
+    object-fit: cover; /* sert a crop l'image, va decouper le reste */
+    object-position: center;
+}
+
+.grille-chaussure__boite-chaussure {
+    background-color: var(--couleur-secondaire);
+}
+
+.ajustement-main {
+    display: flex;
+}
+
+.boite-chaussure_btn-panier {
+    width: 100%;
+    background-color: var(--couleur-secondaire);
+    height: 38px;
+    border: 2px solid #E6E7EB;
+    font-family: var(--typo-btn-categorie);
+}
+
+.champ_selection-preferences {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-right: 10rem;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: solid 2px #EDEEF0;
+    margin: 1.5rem;
+}
+
+.selction-preferences {
+    background-color: var(--couleur-primaire);
+}
+
+.liste_page-suivante {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    height: 129px;
+    align-items: center; /* centrer verticalement */
+    background-color: var(--couleur-primaire);
+    margin: 0;
+    padding: 0;
+}
+
+.liste_page-suivante a {
+    padding-bottom: 15.5px;
+    padding-top: 15.5px;
+    font-family: var(--typo-lien-page-suivante);
+    text-decoration: none;
+}
+
+footer {
+    background-color: #2A2A2A;
+    height: 100px;
+    padding: 4rem;
+}
+
+.section_footer-haut {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_footer-small {
+    display: flex;
+    justify-content: space-between;
+    color: #8B919F;
+    height: 70%;
+    align-items: end;
+}
+
+.footer-nav-menu__list-footer {
+    text-transform: uppercase;
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    color: var(--couleur-secondaire);
+    text-decoration: none;
+}
+
+.footer-nav-menu__list-footer a {
+    list-style: none;
+    color: var(--couleur-secondaire);
+    text-decoration: none;
+    font-family: var(--typo-nav);
+}
+
+.footer_liste-medias {
+    display: flex;
+    list-style: none;
+    gap: 17px;
+}
+
+.section-filtre_liste-deroulante {
+    padding-right: 4rem;
+}
+
+/* ajustements */
+main {
+    background-color: var(--couleur-primaire);
+    padding-right: 4rem;
+    padding-left: 2rem;
+}
