@@ -64,12 +64,12 @@
 --typo-sous-titre: "Barlow Condensed", sans-serif;
 --typo-couleurs: "Barlow", sans-serif;
 --typo-prix: "Barlow", sans-serif;
---typo-btn-ajout-panier: Barlow-medium-12px;
+--typo-btn-ajout-panier: "Barlow", sans-serif;
 --typo-lien-page-suivante: "Barlow", sans-serif;
 
 /*footer*/
 --typo-lien-menu: "Barlow Condensed", sans-serif;
---typo-small: Barlow-regular-12px;
+--typo-small: "Barlow", sans-serif;
 }
 
 .lien-menu {
@@ -247,4 +247,9 @@ legend {
   font-family: var(--typo-label);
   color: #434C5D;
   padding: 0.2rem;
+}
+
+small {
+  font-family: var(--typo-small);
+  line-height: 159%;
 }

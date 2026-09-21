@@ -48,14 +48,11 @@ header {
     text-transform: uppercase;
     letter-spacing: 6%;
     font-weight: 500;
+    padding-left: 4rem;
 }
 
 .icon-btn-filtre {
     padding-right: 1rem;
-}
-
-.btn-camouflage {
-    padding-left: 4rem;
 }
 
 .section-filtre_liste-deroulante {
@@ -76,7 +73,6 @@ select {
     justify-content: right;
     background-color: var(--couleur-primaire);
     width: 100%;
-
 }
 
 .grille-chaussure__boite-chaussure img {
@@ -187,4 +183,70 @@ main {
     background-color: var(--couleur-primaire);
     padding-right: 4rem;
     padding-left: 2rem;
+}
+
+/* version Mobile */
+@media (width < 768px) {
+    main {
+    background-color: var(--couleur-primaire);
+    padding-right: 2rem;
+    padding-left: 1rem;
+}
+.section-filtre_liste-deroulante {
+    padding-right: 2rem;
+}
+
+.liste-btn__categorie-produits {
+    padding-left: 2rem;
+}
+
+.titre-principal {
+  padding-left: 2rem;
+}
+
+footer {
+    padding: 2rem;
+}
+
+.btn-camouflage {
+    padding-left: 2rem;
+}
+
+.fil-ariane {
+  padding-left: 2rem;
+}
+
+.header__nb-produits {
+  padding-left: 2rem;
+}
+
+.champ_selection-preferences {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0.5rem;
+}
+
+.ajustement-main {
+    flex-direction: column;
+}
+
+.grille-chassure {
+    justify-content: center;
+}
+
+.champ_selection-preferences {
+    width: 100%;
+}
+
+.liste-btn__categorie-produits {
+    flex-wrap: wrap;
+}
+
+.section-filtres {
+    flex-direction: column;
+    align-items: center;
+}
+
+
 }
