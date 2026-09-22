@@ -49,6 +49,7 @@ header {
     letter-spacing: 6%;
     font-weight: 500;
     padding-left: 4rem;
+    cursor: pointer;
 }
 
 .icon-btn-filtre {
@@ -477,4 +478,13 @@ legend {
 small {
   font-family: var(--typo-small);
   line-height: 159%;
+}
+
+/* masquer */
+.masquer {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }

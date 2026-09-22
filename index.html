@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/settings/variables.css" />
     <link rel="stylesheet" href="style.css" />
     <script src="js/menu.js" defer></script>
+    <script src="js/btn-filtre.js" defer></script>
     <title>TP1</title>
 </head>
 <body>
@@ -64,7 +65,7 @@
             <li class='liste-btn__item'><button class='btn-blanc'>enfants</button></li>
         </ul>
         <section class="section-filtres">
-            <button class='btn-camouflage'><img class='icon-btn-filtre' src="images/Icons/icon-filtre.svg" alt="icon bouton filtre" aria-hidden="true">Masquer les filtres</button>
+            <button class='btn-camouflage' aria-expanded="true" aria-controls="filter-form"><img class='icon-btn-filtre' src="images/Icons/icon-filtre.svg" alt="icon bouton filtre" aria-hidden="true">Masquer les filtres</button>
             <section class="section-filtre_liste-deroulante">
             <label for="filtre_liste-deroulante">Trier par</label>
             <select name="filtre_liste-deroulante" id="filtre_liste-deroulante">
@@ -76,8 +77,7 @@
     </header>
     <main>
       <div class="ajustement-main">
-        <section class="selction-preferences">
-          <form>
+          <form class="selction-preferences">
             <fieldset class="champ_selection-preferences">
               <legend>Sport</legend>
               <label class="libelle_champ-selection"><input type="checkbox" name="course" value="course">Course</label>
@@ -116,7 +116,6 @@
               <label class="libelle_champ-selection"><input type="checkbox" name="45" value="45">45</label>
             </fieldset>
           </form>
-        </section>
         <section class="grille-chassure" aria-label="Grille de chaussures">
           <div class="grille-chaussure__boite-chaussure">
             <div class="coupure-image"><img class="image-boite-chaussure" src="images/Chaussures/men/AirForceFlynit_01.jpg" alt="souliers Air Force Flyknit"></div>
