@@ -139,6 +139,15 @@ footer {
     padding: 4rem;
 }
 
+/* screen reader -- ne pas utiliser display: none; */
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 .section_footer-haut {
     display: flex;
     justify-content: space-between;
