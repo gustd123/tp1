@@ -42,9 +42,14 @@ Les utilisateurs doivent être capables de :
 
 ### Ce que j'ai appris
 
+Ce Tp1 m'a permis de mieux comprendre l'accesibilité, Le HTML , le CSS et le JS.
+Pour le CSS, j'ai appris que tu pouvais 'crop' les images grace à object-fit: cover; sans devoir écraser les pixels, ce qui permet de garder l'image avec des pixels carrés. Pour le coté du HTML, j'ai appris à propos du 'aria-expanded' qui est utile pour l'accesibilité et pour masquer certains contenus.
 ### Développement continu
 
 Pour mes prochains projets, je souhaite approfondir :
+
+Ma qualité de CSS, car je constate que parfois mon code CSS peut être trop répétitif ou je peux faire les mauvaises pratiques.
+La même chose pour mon HTML, parfois je fais des mauvaises pratiques ou ajouter trop de balises qui n'ont aucune nécéssité. Ou parfois je choisis une balise non-apropriée.
 
 ## Auteur
 Gustavo Daniel Zeve
