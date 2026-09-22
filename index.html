@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -45,10 +45,9 @@
                 <form class="header_recherche-champ">
                   <label for="recherche" class="sr-only">Rechercher</label>
                     <input class='recherche__champ-texte' type="text" placeholder="Rechercher">
-                    <button class="recherche__btn-soumettre" type="submit"><img src='images/Icons/icon-loupe.svg' class='icon-recherche' alt="loupe de recherche" aria-hidden="true"></button>
-                    <span class="sr-only">Rechercher</span>
+                    <button class="recherche__btn-soumettre" type="submit"><img src='images/Icons/icon-loupe.svg' class='icon-recherche' alt="loupe de recherche" aria-hidden="true"><span class="sr-only">Rechercher</span></button>
                 </form>
-                <a class="nav__lien-panier" href="#"><img class="icon-panier" src="images/Icons/icon-panier.svg" alt="panier" aria-hidden="true"></a>
+                <a class="nav__lien-panier" href="#"><img class="icon-panier" src="images/Icons/icon-panier.svg" alt="panier" aria-hidden="true"><span class="sr-only">Voir le panier</span></a>
               </section>
       </nav>
         <ol class="fil-ariane">
@@ -65,7 +64,7 @@
             <li class='liste-btn__item'><button class='btn-blanc'>enfants</button></li>
         </ul>
         <section class="section-filtres">
-            <button class='btn-camouflage'><img class='icon-btn-filtre' src="images/Icons/icon-filtre.svg" alt="icon bouton filtre">Masquer les filtres</button>
+            <button class='btn-camouflage'><img class='icon-btn-filtre' src="images/Icons/icon-filtre.svg" alt="icon bouton filtre" aria-hidden="true">Masquer les filtres</button>
             <section class="section-filtre_liste-deroulante">
             <label for="filtre_liste-deroulante">Trier par</label>
             <select name="filtre_liste-deroulante" id="filtre_liste-deroulante">
@@ -118,105 +117,106 @@
             </fieldset>
           </form>
         </section>
-        <section class="grille-chassure">
+        <section class="grille-chassure" aria-label="Grille de chaussures">
           <div class="grille-chaussure__boite-chaussure">
             <div class="coupure-image"><img class="image-boite-chaussure" src="images/Chaussures/men/AirForceFlynit_01.jpg" alt="souliers Air Force Flyknit"></div>
             <p class="boite-chaussure_genre">Hommes</p>
             <h2 class="sous-titre">Air Force Flyknit</h2>
             <p class="boite-chaussure_couleurs">3 couleurs</p>
             <p class="boite-chaussure_prix">129,99 $</p>
-            <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
+            <button class="boite-chaussure_btn-panier">Ajouter au panier<span class="sr-only">Air Force Flyknit</span></button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img class="image-boite-chaussure" src="images/Chaussures/women/AirForceMidLeather_01.jpg" alt="souliers Air Force Mid Leather" aria-hidden="true">
+            <img class="image-boite-chaussure" src="images/Chaussures/women/AirForceMidLeather_01.jpg" alt="souliers Air Force Mid Leather">
             <p class="boite-chaussure_genre">Femmes</p>
             <h2 class="sous-titre">Air Force Mid Leather</h2>
             <p class="boite-chaussure_couleurs">4 couleurs</p>
             <p class="boite-chaussure_prix">109,99 $</p>
-            <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
+            <button class="boite-chaussure_btn-panier">Ajouter au panier<span class="sr-only">Air Force Mid Leather</span></button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img class="image-boite-chaussure" src="images/Chaussures/men/AirJordanRetroDecon_01.jpg" alt="souliers Air Jordan Retro Decon" aria-hidden="true">
+            <img class="image-boite-chaussure" src="images/Chaussures/men/AirJordanRetroDecon_01.jpg" alt="souliers Air Jordan Retro Decon">
             <p class="boite-chaussure_genre">Hommes</p>
             <h2 class="sous-titre">Air Jordan Retro Decon</h2>
             <p class="boite-chaussure_couleurs">5 couleurs</p>
             <p class="boite-chaussure_prix">189,99 $</p>
-            <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
+            <button class="boite-chaussure_btn-panier">Ajouter au panier<span class="sr-only">Air Jordan Retro Decon</span></button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img class="image-boite-chaussure" src="images/Chaussures/men/AirVortex01.jpg" alt="souliers Air Vortex" aria-hidden="true">
+            <img class="image-boite-chaussure" src="images/Chaussures/men/AirVortex01.jpg" alt="souliers Air Vortex">
             <p class="boite-chaussure_genre">Hommes</p>
             <h2 class="sous-titre">Air Vortex</h2>
             <p class="boite-chaussure_couleurs">3 couleurs</p>
             <p class="boite-chaussure_prix">99,99 $</p>
-            <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
+            <button class="boite-chaussure_btn-panier">Ajouter au panier<span class="sr-only">Air Vortex</span></button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img class="image-boite-chaussure" src="images/Chaussures/men/CourtBoroughMid_01.jpg" alt="souliers Court Borough Mid" aria-hidden="true">
+            <img class="image-boite-chaussure" src="images/Chaussures/men/CourtBoroughMid_01.jpg" alt="souliers Court Borough Mid">
             <p class="boite-chaussure_genre">Hommes</p>
             <h2 class="sous-titre">Court Borough Mid</h2>
             <p class="boite-chaussure_couleurs">4 couleurs</p>
             <p class="boite-chaussure_prix">79,99 $</p>
-            <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
+            <button class="boite-chaussure_btn-panier">Ajouter au panier<span class="sr-only">Court Bourough Mid</span></button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img class="image-boite-chaussure" src="images/Chaussures/women/ClassicCortezNylonB_01.jpg" alt="souliers Classic Cortez Nylon B" aria-hidden="true">
+            <img class="image-boite-chaussure" src="images/Chaussures/women/ClassicCortezNylonB_01.jpg" alt="souliers Classic Cortez Nylon B">
             <p class="boite-chaussure_genre">Femmes</p>
             <h2 class="sous-titre">Classic Cortez Nylon B</h2>
             <p class="boite-chaussure_couleurs">2 couleurs</p>
             <p class="boite-chaussure_prix">89,99 $</p>
-            <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
+            <button class="boite-chaussure_btn-panier">Ajouter au panier<span class="sr-only">Classic Cortez Nylon B</span></button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img class="image-boite-chaussure" src="images/Chaussures/men/AirMaxUltraMoire_01.jpg" alt="souliers Air Max Ultra Moire" aria-hidden="true">
+            <img class="image-boite-chaussure" src="images/Chaussures/men/AirMaxUltraMoire_01.jpg" alt="souliers Air Max Ultra Moire">
             <p class="boite-chaussure_genre">Hommes</p>
             <h2 class="sous-titre">Air Max Ultra Moire</h2>
             <p class="boite-chaussure_couleurs">4 couleurs</p>
             <p class="boite-chaussure_prix">149,99 $</p>
-            <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
+            <button class="boite-chaussure_btn-panier">Ajouter au panier<span class="sr-only">Air Max Ultra Moire</span></button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img class="image-boite-chaussure" src="images/Chaussures/women/AirMaxZero_01.jpg" alt="souliers Air Max Zero" aria-hidden="true">
+            <img class="image-boite-chaussure" src="images/Chaussures/women/AirMaxZero_01.jpg" alt="souliers Air Max Zero">
             <p class="boite-chaussure_genre">Femmes</p>
             <h2 class="sous-titre">Air Max Zero</h2>
             <p class="boite-chaussure_couleurs">6 couleurs</p>
             <p class="boite-chaussure_prix">119,99 $</p>
-            <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
+            <button class="boite-chaussure_btn-panier">Ajouter au panier<span class="sr-only">Air Max Zero</span></button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img class="image-boite-chaussure" src="images/Chaussures/women/BlazerLowLX_01.jpg" alt="souliers Blazer Low Lx" aria-hidden="true">
+            <img class="image-boite-chaussure" src="images/Chaussures/women/BlazerLowLX_01.jpg" alt="souliers Blazer Low Lx">
             <p class="boite-chaussure_genre">Femmes</p>
             <h2 class="sous-titre">Blazer Low Lx</h2>
             <p class="boite-chaussure_couleurs">3 couleurs</p>
             <p class="boite-chaussure_prix">109,99 $</p>
-            <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
+            <button class="boite-chaussure_btn-panier">Ajouter au panier<span class="sr-only">Blazer Low Lx</span></button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img class="image-boite-chaussure" src="images/Chaussures/men/CortezUltraMoire_01.jpg" alt="souliers Cortez Ultra Moire" aria-hidden="true">
+            <img class="image-boite-chaussure" src="images/Chaussures/men/CortezUltraMoire_01.jpg" alt="souliers Cortez Ultra Moire">
             <p class="boite-chaussure_genre">Hommes</p>
             <h2 class="sous-titre">Cortez Ultra Moire</h2>
             <p class="boite-chaussure_couleurs">5 couleurs</p>
             <p class="boite-chaussure_prix">99,99 $</p>
-            <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
+            <button class="boite-chaussure_btn-panier">Ajouter au panier<span class="sr-only">Cortez Ultra Moire</span></button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img class="image-boite-chaussure" src="images/Chaussures/women/FlexSupremeTR5b_01.jpg" alt="souliers Flex Supreme Tr 5b" aria-hidden="true">
+            <img class="image-boite-chaussure" src="images/Chaussures/women/FlexSupremeTR5b_01.jpg" alt="souliers Flex Supreme Tr 5b">
             <p class="boite-chaussure_genre">Femmes</p>
             <h2 class="sous-titre">Flex Supreme Tr 5b</h2>
             <p class="boite-chaussure_couleurs">3 couleurs</p>
             <p class="boite-chaussure_prix">89,99 $</p>
-            <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
+            <button class="boite-chaussure_btn-panier">Ajouter au panier<span class="sr-only">Flex Supreme Tr 5b</span></button>
           </div>
           <div class="grille-chaussure__boite-chaussure">
-            <img class="image-boite-chaussure" src="images/Chaussures/women/LunarChargeEssential_01.jpg" alt="souliers Lunar Charge Essential" aria-hidden="true">
+            <img class="image-boite-chaussure" src="images/Chaussures/women/LunarChargeEssential_01.jpg" alt="souliers Lunar Charge Essential">
             <p class="boite-chaussure_genre">Femmes</p>
             <h2 class="sous-titre">Lunar Charge Essential</h2>
             <p class="boite-chaussure_couleurs">4 couleurs</p>
             <p class="boite-chaussure_prix">119,99 $</p>
-            <button class="boite-chaussure_btn-panier">Ajouter au panier</button>
+            <button class="boite-chaussure_btn-panier">Ajouter au panier<span class="sr-only">Lunar Charge Essential</span></button>
           </div>
         </section>
         </div>
+        <nav aria-label="pagination">
           <ol class="liste_page-suivante">
           <li class='liste_page-suivante_item'><a href="#" class="btn-blanc">&lt;</a></li>
           <li class='liste_page-suivante_item'><a href="#" class="btn-noir">1</a></li>
@@ -224,6 +224,7 @@
           <li class='liste_page-suivante_item'><a href="#" class="btn-blanc">3</a></li>
           <li class='liste_page-suivante_item'><a href="#" class="btn-blanc">&gt;</a></li>
           </ol>
+          </nav>
     </main>
     <footer>
       <section class="section_footer-haut">
@@ -243,9 +244,9 @@
           </li>
         </ul>
         <ul class="footer_liste-medias">
-          <li class="footer_liste-medias-item"><a class='footer_liste-medias-lien' href="#"><img src="images/Icons/icon-x.svg" alt="twitter" aria-hidden="true"></a></li>
-          <li class="footer_liste-medias-item"><a class='footer_liste-medias-lien' href="#"><img src="images/Icons/icon-Facebook.svg" alt="facebook" aria-hidden="true"></a></li>
-          <li class="footer_liste-medias-item"><a class='footer_liste-medias-lien' href="#"><img src="images/Icons/icon-Dribble.svg" alt="dribble" aria-hidden="true"></a></li>
+          <li class="footer_liste-medias-item"><a class='footer_liste-medias-lien' href="#"><img src="images/Icons/icon-x.svg" alt="twitter" aria-hidden="true"><span class="sr-only">Notre Twitter (X)</span></a></li>
+          <li class="footer_liste-medias-item"><a class='footer_liste-medias-lien' href="#"><img src="images/Icons/icon-Facebook.svg" alt="facebook" aria-hidden="true"><span class="sr-only">Notre Facebook</span></a></li>
+          <li class="footer_liste-medias-item"><a class='footer_liste-medias-lien' href="#"><img src="images/Icons/icon-Dribble.svg" alt="dribble" aria-hidden="true"><span class="sr-only">Notre Dribble</span></a></li>
         </ul>
         </section>
         <section class="section_footer-small">
