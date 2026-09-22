@@ -206,6 +206,7 @@ main {
 
 footer {
     padding: 2rem;
+    height: 100%;
 }
 
 .btn-camouflage {
@@ -223,8 +224,13 @@ footer {
 .champ_selection-preferences {
     display: flex;
     flex-direction: column;
-    width: 30%;
     margin: 0.5rem;
+    width: 93%;
+    padding-right: 0;
+}
+
+.selction-preferences {
+    width: 100%;
 }
 
 .ajustement-main {
@@ -233,10 +239,6 @@ footer {
 
 .grille-chassure {
     justify-content: center;
-}
-
-.champ_selection-preferences {
-    width: 100%;
 }
 
 .liste-btn__categorie-produits {
@@ -248,5 +250,39 @@ footer {
     align-items: center;
 }
 
+.btn-camouflage {
+    padding-left: 0;
+    padding-bottom: 1.5rem;
+}
 
+.nav-menu {
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.section_footer-haut {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.section_footer-small {
+    flex-direction: column;
+}
+
+.footer-nav-menu__list-footer {
+    flex-direction: column;
+    padding-left: 0;
+    padding-top: 2rem;
+}
+
+.liste_page-suivante {
+    flex-direction: column;
+    padding: 8rem;
+    gap: 3rem;
+}
+
+header {
+    flex-wrap: wrap;
+}
 }
