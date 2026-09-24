@@ -28,8 +28,8 @@ Les utilisateurs doivent être capables de :
 
 ### Liens
 
-- URL de la solution : [Lien vers mon dépôt GitHub](https://github.com)
-- URL du site en direct : [Lien vers GitHub Pages](https://github.io)
+- URL de la solution : [Lien vers mon dépôt GitHub](https://github.com/gustd123/tp1)
+- URL du site en direct : [Lien vers GitHub Pages](https://gustd123.github.io/tp1/)
 
 ## Mon Processus
 
