@@ -406,6 +406,38 @@ header {
 }
 
 /*--------------------------------*/
+
+.nouveau {
+  background-color: var(--couleur-tertiaire);
+  color: var(--couleur-primaire);
+  z-index: 99;
+  top: 1;
+  position: absolute;
+  margin-bottom: -35px;
+  width: fit-content;
+  padding: 10px;
+  text-transform: uppercase;
+  font-family: var(--typo-nouveaute);
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.nouveau-cache {
+    background-color: var(--couleur-tertiaire);
+  color: var(--couleur-primaire);
+  z-index: 99;
+  top: 1;
+  position: absolute;
+  margin-bottom: -35px;
+  width: fit-content;
+  padding: 10px;
+  text-transform: uppercase;
+  font-family: var(--typo-nouveaute);
+  font-weight: 600;
+  font-size: 0.8rem;
+  opacity: 0%;
+}
+
 .boite-chaussure_btn-panier {
   text-transform: uppercase;
   font-family: var(--typo-btn-masquer-filtres);
